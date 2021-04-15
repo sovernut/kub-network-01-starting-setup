@@ -17,6 +17,4 @@ spec:
           image: sovernut/kub-demo-user:latest
           env:
             - name: AUTH_ADDRESS
-              value: localhost
-        - name: auth
-          image: sovernut/kub-demo-auth:latest
+              value: "10.101.135.143"
