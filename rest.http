@@ -28,10 +28,9 @@ content-type: application/json
 GET http://172.19.151.103:30512/tasks HTTP/1.1
 
 ### Post Tasks
+Content-Type: application/json
 Authorization: Bearer abc
 POST http://172.19.151.103:30512/tasks HTTP/1.1
-content-type: application/json
-
 {
     "title": "sample",
     "text": "W123123T"
