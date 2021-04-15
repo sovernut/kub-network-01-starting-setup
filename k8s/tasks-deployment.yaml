@@ -14,8 +14,9 @@ spec:
     spec:
       containers:
         - name: tasks
-          image: sovernut/kub-demo-task:latest
+          image: sovernut/kub-demo-tasks:latest
           env:
             - name: AUTH_ADDRESS
-              # value: "10.101.135.143"
               value: "auth-service.default"
+            - name: TASKS_FOLDER
+              value: tasks
