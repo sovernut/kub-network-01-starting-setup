@@ -1,0 +1,25 @@
+GET http://172.19.151.249:30530/comments/1 HTTP/1.1
+
+###
+
+GET http://172.19.151.249:30530/topics/1 HTTP/1.1
+
+### Login
+
+POST http://172.19.151.249:30530/login HTTP/1.1
+content-type: application/json
+
+{
+    "email": "sample",
+    "password": "W123123T"
+}
+
+### Register
+
+POST http://172.19.151.249:30530/signup HTTP/1.1
+content-type: application/json
+
+{
+    "email": "sample",
+    "password": "W123123T"
+}
